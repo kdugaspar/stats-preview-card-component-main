@@ -1,7 +1,94 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+/*
+font-family: 'Inter', sans-serif;
+font-family: 'Lexend Deca', sans-serif;
+*/
+* {
     padding: 0;
     margin: 0;
 }
-body{
+
+body {
     font-size: 62.5%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #0a0c1b;
+    color: white;
+}
+
+main {
+    background-color: #1c1938;
+    width: 22.5rem;
+    border-radius: 1rem 1rem 1rem 1rem;
+}
+
+article {}
+
+figure{
+    height: 19rem;
+}
+img {
+    width: 22.5rem;
+    border-radius: 1rem 1rem 0rem 0rem;
+}
+
+.sesao-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.8rem;
+    width: 18rem;
+    background-color: rgba(255, 0, 234, 0);
+}
+.insights{
+    color: #a564d3;
+}
+
+p {
+    display: flex;
+    align-items:flex-end;
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+    width: 18rem;
+    height: 6.5rem;
+    font-size: 1rem;
+    color: #aba8c3;
+}
+
+.sesao-secundaria {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 17rem;
+    gap: 1.5rem;
+}
+
+.blocos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.numeros {
+    font-size: 1.5rem;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.num-nomes {
+    font-size: 0.9rem;
+    color: #aba8c3;
 }
