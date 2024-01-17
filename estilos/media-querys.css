@@ -17,6 +17,44 @@
     
 @media screen and (min-width: 1200px){
     /* GRANDE TELAS */
-    
+    article {
+        display: flex;
+        flex-direction: row-reverse;
+        background-color: #1c1938;
+        border-radius: 1rem 1rem 1rem 1rem;
+    }
+    figure{
+        
+    }
+    img {
+        width: 32rem;
+        border-radius: 1rem 1rem 0rem 0rem;
+    }
+    .sesao-principal {
+        width: 30rem;
+    }
+    .bloco-titulo{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-end;
+        width: 20rem;
+        height: 8rem;
+    }
+    h1 {
+
+    }
+    p {
+        
+    }
+    .sesao-secundaria {
+       
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 7rem;
+        gap: 1.5rem;
+    }
     }
     
