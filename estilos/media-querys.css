@@ -1,21 +1,22 @@
 @charset "UTF-8";
 
-@media print{
-/* IMPRESSÃO */
+@media print {
+    /* IMPRESSÃO */
 }
 
-@media screen and (min-width: 768px) and (max-width: 992px){
-/* TABLET */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    /* TABLET */
 
 }
 
-    @media screen and (min-width: 992px) and (max-width: 1200px){
-        /* DESKTOP */
-        
-        
-    }
-    
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    /* DESKTOP */
+
+
+}
+
+@media screen and (min-width: 1200px) {
+
     /* GRANDE TELAS */
     article {
         display: flex;
@@ -23,28 +24,29 @@
         background-color: #1c1938;
         border-radius: 1rem 1rem 1rem 1rem;
     }
-    figure{
-        
-    }
+
     img {
         width: 32rem;
-        border-radius: 1rem 1rem 0rem 0rem;
+        border-radius: 0rem 0.5rem 0.5rem 0rem; 
     }
+
     .sesao-principal {
         display: flex;
         flex-direction: row;
-        justify-content:flex-end;
+        justify-content: flex-end;
         background-color: rgba(230, 141, 7, 0);
         width: 30rem;
     }
-    .sesao-neutra{
+
+    .sesao-neutra {
         background-color: #1c1938;
         display: flex;
         flex-direction: column;
-        align-items:flex-start;
+        align-items: flex-start;
         width: 26rem;
     }
-    .bloco-titulo{
+
+    .bloco-titulo {
         background-color: #2109d800;
         display: flex;
         flex-direction: row;
@@ -52,41 +54,49 @@
         width: 22rem;
         height: 5rem;
     }
+
     h1 {
-background-color: rgba(255, 0, 0, 0);
-text-align:left;
-font-size: 2rem;
+        background-color: rgba(255, 0, 0, 0);
+        text-align: left;
+        font-size: 2rem;
     }
+
     p {
         background-color: rgba(255, 255, 0, 0);
         font-size: 0.8rem;
-        text-align:start;
+        text-align: start;
         height: 4.5rem;
         width: 20rem;
     }
+
     .sesao-secundaria {
         background-color: #aba8c300;
         display: flex;
         flex-direction: row;
+        justify-content: flex-start;
         align-items: flex-end;
+        width: 19rem;
         height: 7rem;
-        gap: 1.5rem;
+        gap: 2.7rem;
     }
-    .blocos{
+
+    .blocos {
         background-color: rgba(0, 255, 255, 0);
         display: flex;
         align-items: flex-start;
-        
+
     }
-    .numeros{
+
+    .numeros {
+        background-color: rgba(0, 128, 0, 0);
         font-family: 'Inter', sans-serif;
         font-weight: 600;
         font-size: 1.5rem;
     }
+
     .num-nomes {
         font-family: 'Inter', sans-serif;
         font-size: 0.8rem;
         color: #aba8c3;
     }
-    }
-    
+}
