@@ -23,12 +23,24 @@
         flex-direction: row-reverse;
         background-color: #1c1938;
         border-radius: 1rem 1rem 1rem 1rem;
+        height: 23.4rem;
     }
-
+    .container-img{
+        
+        background-color: #A858DA;
+        border-radius: 0rem 0.5rem 0.5rem 0rem; 
+    }
+    .container-img img{
+       /* mix-blend-mode: darken; */
+       mix-blend-mode: multiply;
+        opacity: 1;
+    }
     img {
+       
         width: 32rem;
         border-radius: 0rem 0.5rem 0.5rem 0rem; 
     }
+    
 
     .sesao-principal {
         display: flex;
